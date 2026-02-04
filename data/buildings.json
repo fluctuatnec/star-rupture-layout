@@ -13,7 +13,7 @@
       "basic_building": 80
     },
     "unlockedBy": {
-      "corporation": "Training Corporation",
+      "corporation": "training_corporation",
       "level": 2
     },
     "recipeIds": [
@@ -42,7 +42,7 @@
       "basic_building": 250
     },
     "unlockedBy": {
-      "corporation": "Selenian Corporation",
+      "corporation": "selenian_corporation",
       "level": 6
     },
     "recipeIds": ["helium_normal"]
@@ -61,7 +61,7 @@
       "intermediate_building": 120
     },
     "unlockedBy": {
-      "corporation": "Selenian Corporation",
+      "corporation": "selenian_corporation",
       "level": 9
     },
     "recipeIds": ["sulphur_normal"]
@@ -79,7 +79,7 @@
       "basic_building": 100
     },
     "unlockedBy": {
-      "corporation": "Training Corporation",
+      "corporation": "training_corporation",
       "level": 4
     },
     "recipeIds": ["titanium_bar", "wolfram_bar", "calcium_block"]
@@ -97,7 +97,7 @@
       "basic_building": 200
     },
     "unlockedBy": {
-      "corporation": "Selenian Corporation",
+      "corporation": "selenian_corporation",
       "level": 4
     },
     "recipeIds": [
@@ -128,7 +128,7 @@
       "basic_building": 140
     },
     "unlockedBy": {
-      "corporation": "Selenian Corporation",
+      "corporation": "selenian_corporation",
       "level": 2
     },
     "recipeIds": [
@@ -160,7 +160,7 @@
       "intermediate_building": 80
     },
     "unlockedBy": {
-      "corporation": "Selenian Corporation",
+      "corporation": "selenian_corporation",
       "level": 8
     },
     "recipeIds": [
@@ -190,7 +190,7 @@
       "intermediate_building": 150
     },
     "unlockedBy": {
-      "corporation": "Selenian Corporation",
+      "corporation": "selenian_corporation",
       "level": 9
     },
     "recipeIds": ["sulphuric_acid", "pressurized_helium"]
@@ -208,7 +208,7 @@
       "intermediate_building": 200
     },
     "unlockedBy": {
-      "corporation": "Selenian Corporation",
+      "corporation": "selenian_corporation",
       "level": 10
     },
     "recipeIds": [
@@ -235,7 +235,7 @@
       "intermediate_building": 180
     },
     "unlockedBy": {
-      "corporation": "Future Health Solutions",
+      "corporation": "future_health_solutions",
       "level": 9
     },
     "recipeIds": [
@@ -257,7 +257,7 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Moon Energy Corporation",
+      "corporation": "moon_energy_corporation",
       "level": 1
     }
   },
@@ -271,7 +271,7 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Moon Energy Corporation",
+      "corporation": "moon_energy_corporation",
       "level": 8
     }
   },
@@ -285,7 +285,7 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Moon Energy Corporation",
+      "corporation": "moon_energy_corporation",
       "level": 5
     }
   },
@@ -299,7 +299,7 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Moon Energy Corporation",
+      "corporation": "moon_energy_corporation",
       "level": 10
     }
   },
@@ -313,7 +313,7 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Clever Robotics",
+      "corporation": "clever_robotics",
       "level": 7
     }
   },
@@ -327,7 +327,7 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Clever Robotics",
+      "corporation": "clever_robotics",
       "level": 7
     }
   },
@@ -341,7 +341,7 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Clever Robotics",
+      "corporation": "clever_robotics",
       "level": 1
     }
   },
@@ -359,7 +359,7 @@
       "basic_building": 100
     },
     "unlockedBy": {
-      "corporation": "Clever Robotics",
+      "corporation": "clever_robotics",
       "level": 3
     }
   },
@@ -377,7 +377,7 @@
       "intermediate_building": 150
     },
     "unlockedBy": {
-      "corporation": "Clever Robotics",
+      "corporation": "clever_robotics",
       "level": 8
     }
   },
@@ -392,7 +392,7 @@
     "outputSockets": 0,
     "capacity": 1600,
     "unlockedBy": {
-      "corporation": "Clever Robotics",
+      "corporation": "clever_robotics",
       "level": 13
     }
   },
@@ -407,7 +407,7 @@
     "outputSockets": 0,
     "capacity": 2500,
     "unlockedBy": {
-      "corporation": "Clever Robotics",
+      "corporation": "clever_robotics",
       "level": 12
     }
   },
@@ -431,7 +431,7 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Moon Energy Corporation",
+      "corporation": "moon_energy_corporation",
       "level": 6
     }
   },
@@ -449,7 +449,7 @@
       "meteor_heart": 1
     },
     "unlockedBy": {
-      "corporation": "Selenian Corporation",
+      "corporation": "selenian_corporation",
       "level": 1
     }
   },
@@ -473,7 +473,7 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Selenian Corporation",
+      "corporation": "selenian_corporation",
       "level": 7
     }
   },
@@ -487,7 +487,7 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Griffith Blue Corporation",
+      "corporation": "griffith_blue_corporation",
       "level": 6
     }
   },
@@ -501,8 +501,170 @@
     "inputSockets": 0,
     "outputSockets": 0,
     "unlockedBy": {
-      "corporation": "Griffith Blue Corporation",
+      "corporation": "griffith_blue_corporation",
       "level": 9
+    }
+  },
+  {
+    "id": "rail_support",
+    "name": "Rail Support",
+    "type": "rail_support",
+    "size": 1,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "railConnections": 2,
+    "buildCost": {
+      "basic_building": 5
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 1
+    }
+  },
+  {
+    "id": "rail_pole_2x2",
+    "name": "Rail Pole 2x2",
+    "type": "rail_support",
+    "size": 1,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "railConnections": 4,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 1
+    }
+  },
+  {
+    "id": "multirail_3",
+    "name": "Multirail 3",
+    "type": "rail_support",
+    "size": 1,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "railConnections": 6,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 5
+    }
+  },
+  {
+    "id": "multirail_5",
+    "name": "Multirail 5",
+    "type": "rail_support",
+    "size": 1,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "railConnections": 10,
+    "buildCost": {
+      "intermediate_building": 5
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 10
+    }
+  },
+  {
+    "id": "rail_connector",
+    "name": "Rail Connector",
+    "type": "rail_junction",
+    "size": 1,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "railConnections": 4,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 1
+    }
+  },
+  {
+    "id": "rail_junction_2x2",
+    "name": "Rail Junction 2x2",
+    "type": "rail_junction",
+    "size": 1,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "railConnections": 6,
+    "buildCost": {
+      "basic_building": 15
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 3
+    }
+  },
+  {
+    "id": "radial_rail_connector",
+    "name": "Radial Rail Connector",
+    "type": "rail_junction",
+    "size": 1,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "railConnections": 8,
+    "buildCost": {
+      "basic_building": 20
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 5
+    }
+  },
+  {
+    "id": "rail_modulator_3",
+    "name": "Rail Modulator 3",
+    "type": "rail_junction",
+    "size": 1,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "railConnections": 3,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 5
+    }
+  },
+  {
+    "id": "rail_modulator_5",
+    "name": "Rail Modulator 5",
+    "type": "rail_junction",
+    "size": 1,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "railConnections": 5,
+    "buildCost": {
+      "intermediate_building": 5
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 10
     }
   }
 ]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "rail_v1",
+    "name": "Rail v.1",
+    "size": 1,
+    "capacity": 120,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 1
+    },
+    "unlockedBy": {
+      "corporation": "training_corporation",
+      "level": 2
+    }
+  },
+  {
+    "id": "rail_v2",
+    "name": "Rail v.2",
+    "size": 1,
+    "capacity": 240,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 3
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 6
+    }
+  },
+  {
+    "id": "rail_v3",
+    "name": "Rail v.3",
+    "size": 1,
+    "capacity": 480,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "intermediate_building": 3
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": 11
+    }
+  },
+  {
+    "id": "rail_v4",
+    "name": "Rail v.4",
+    "size": 1,
+    "capacity": 900,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": null
+    }
+  },
+  {
+    "id": "rail_v5",
+    "name": "Rail v.5",
+    "size": 1,
+    "capacity": 1500,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "clever_robotics",
+      "level": null
+    }
+  }
+]

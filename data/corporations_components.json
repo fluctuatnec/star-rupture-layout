@@ -1,6 +1,43 @@
-{
-  "Future Health Solutions": {
+[
+  {
+    "id": "training_corporation",
+    "name": "Training Corporation",
+    "description": "Tutorial and basic building unlocks",
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "components": [],
+        "rewards": []
+      },
+      {
+        "level": 2,
+        "xp": 100,
+        "components": [],
+        "rewards": [
+          { "type": "building", "id": "ore_excavator" },
+          { "type": "rail", "id": "rail_v1" }
+        ]
+      },
+      {
+        "level": 3,
+        "xp": 300,
+        "components": [],
+        "rewards": []
+      },
+      {
+        "level": 4,
+        "xp": 600,
+        "components": [],
+        "rewards": [
+          { "type": "building", "id": "smelter" }
+        ]
+      }
+    ]
+  },
+  {
     "id": "future_health_solutions",
+    "name": "Future Health Solutions",
     "description": "Health, food, and life support systems",
     "levels": [
       {
@@ -8,196 +45,97 @@
         "xp": 0,
         "components": [],
         "rewards": [
-          {
-            "name": "Habitat"
-          },
-          {
-            "name": "Basic Habitat Modules"
-          },
-          {
-            "name": "Advanced Habitat Modules"
-          }
+          { "type": "building", "id": "habitat" },
+          { "type": "module_pack", "name": "Basic Habitat Modules" },
+          { "type": "module_pack", "name": "Advanced Habitat Modules" }
         ]
       },
       {
         "level": 2,
         "xp": 200,
-        "components": [
-          {
-            "id": "bar_wolfram",
-            "points": 1
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Regeneration Chamber"
-          }
-        ]
+        "components": [{ "id": "bar_wolfram", "points": 1 }],
+        "rewards": [{ "type": "utility", "name": "Regeneration Chamber" }]
       },
       {
         "level": 3,
         "xp": 1500,
         "components": [
-          {
-            "id": "bar_wolfram",
-            "points": 1
-          },
-          {
-            "id": "wolfram_wire",
-            "points": 5
-          }
+          { "id": "bar_wolfram", "points": 1 },
+          { "id": "wolfram_wire", "points": 5 }
         ],
-        "rewards": [
-          {
-            "name": "Medtool"
-          }
-        ]
+        "rewards": [{ "type": "item", "name": "Medtool" }]
       },
       {
         "level": 4,
         "xp": 6400,
         "components": [
-          {
-            "id": "titanium_rod",
-            "points": 4
-          },
-          {
-            "id": "titanium_sheet",
-            "points": 15
-          }
+          { "id": "titanium_rod", "points": 4 },
+          { "id": "titanium_sheet", "points": 15 }
         ],
-        "rewards": [
-          {
-            "name": "LEM Station"
-          }
-        ]
+        "rewards": [{ "type": "utility", "name": "LEM Station" }]
       },
       {
         "level": 5,
         "xp": 17600,
         "components": [
-          {
-            "id": "powder_calcium",
-            "points": 12
-          },
-          {
-            "id": "powder_wolfram",
-            "points": 18
-          }
+          { "id": "powder_calcium", "points": 12 },
+          { "id": "powder_wolfram", "points": 18 }
         ],
         "rewards": [
-          {
-            "name": "Lesser Dietician LEM"
-          },
-          {
-            "name": "Lesser Irrigator LEM"
-          }
+          { "type": "lem", "name": "Lesser Dietician LEM" },
+          { "type": "lem", "name": "Lesser Irrigator LEM" }
         ]
       },
       {
         "level": 6,
         "xp": 37800,
-        "components": [
-          {
-            "id": "ceramics",
-            "points": 25
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Food Station"
-          }
-        ]
+        "components": [{ "id": "ceramics", "points": 25 }],
+        "rewards": [{ "type": "utility", "name": "Food Station" }]
       },
       {
         "level": 7,
         "xp": 69700,
-        "components": [
-          {
-            "id": "glass",
-            "points": 46
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Inventory Upgrade (+8)"
-          }
-        ]
+        "components": [{ "id": "glass", "points": 46 }],
+        "rewards": [{ "type": "meta", "name": "Inventory Upgrade (+8)" }]
       },
       {
         "level": 8,
         "xp": 116000,
-        "components": [
-          {
-            "id": "chemicals",
-            "points": 46
-          }
-        ],
+        "components": [{ "id": "chemicals", "points": 46 }],
         "rewards": [
-          {
-            "name": "Dietician LEM"
-          },
-          {
-            "name": "Irrigator LEM"
-          }
+          { "type": "lem", "name": "Dietician LEM" },
+          { "type": "lem", "name": "Irrigator LEM" }
         ]
       },
       {
         "level": 9,
         "xp": 179400,
         "components": [
-          {
-            "id": "hardening_agent",
-            "points": 60
-          },
-          {
-            "id": "pressurized_helium",
-            "points": 20
-          }
+          { "id": "hardening_agent", "points": 60 },
+          { "id": "pressurized_helium", "points": 20 }
         ],
-        "rewards": [
-          {
-            "name": "Compounder"
-          }
-        ]
+        "rewards": [{ "type": "building", "id": "compounder" }]
       },
       {
         "level": 10,
         "xp": 262600,
-        "components": [
-          {
-            "id": "liquid_helium",
-            "points": 120
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Resister LEM"
-          }
-        ]
+        "components": [{ "id": "liquid_helium", "points": 120 }],
+        "rewards": [{ "type": "lem", "name": "Resister LEM" }]
       },
       {
         "level": 11,
         "xp": 368300,
-        "components": [
-          {
-            "id": "ion_injector",
-            "points": 246
-          }
-        ],
+        "components": [{ "id": "ion_injector", "points": 246 }],
         "rewards": [
-          {
-            "name": "Greater Irrigator LEM"
-          },
-          {
-            "name": "Greater Dietician LEM"
-          }
+          { "type": "lem", "name": "Greater Irrigator LEM" },
+          { "type": "lem", "name": "Greater Dietician LEM" }
         ]
       }
     ]
   },
-  "Selenian Corporation": {
+  {
     "id": "selenian_corporation",
+    "name": "Selenian Corporation",
     "description": "Factories and production facilities",
     "levels": [
       {
@@ -205,203 +143,99 @@
         "xp": 0,
         "components": [],
         "rewards": [
-          {
-            "name": "Base Core"
-          },
-          {
-            "name": "Basic Item Printer"
-          },
-          {
-            "name": "Ore Excavator"
-          },
-          {
-            "name": "Smelter"
-          },
-          {
-            "name": "Habitat"
-          }
+          { "type": "building", "id": "base_core" },
+          { "type": "utility", "name": "Basic Item Printer" },
+          { "type": "building", "id": "ore_excavator" },
+          { "type": "building", "id": "smelter" },
+          { "type": "building", "id": "habitat" }
         ]
       },
       {
         "level": 2,
         "xp": 200,
-        "components": [
-          {
-            "id": "bar_titanium",
-            "points": 1
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Fabricator"
-          }
-        ]
+        "components": [{ "id": "bar_titanium", "points": 1 }],
+        "rewards": [{ "type": "building", "id": "fabricator" }]
       },
       {
         "level": 3,
         "xp": 1500,
         "components": [
-          {
-            "id": "bar_titanium",
-            "points": 1
-          },
-          {
-            "id": "titanium_rod",
-            "points": 5
-          }
+          { "id": "bar_titanium", "points": 1 },
+          { "id": "titanium_rod", "points": 5 }
         ],
-        "rewards": [
-          {
-            "name": "Inventory Upgrade (+8)"
-          }
-        ]
+        "rewards": [{ "type": "meta", "name": "Inventory Upgrade (+8)" }]
       },
       {
         "level": 4,
         "xp": 6400,
         "components": [
-          {
-            "id": "titanium_rod",
-            "points": 4
-          },
-          {
-            "id": "titanium_sheet",
-            "points": 16
-          }
+          { "id": "titanium_rod", "points": 4 },
+          { "id": "titanium_sheet", "points": 16 }
         ],
-        "rewards": [
-          {
-            "name": "Furnace"
-          }
-        ]
+        "rewards": [{ "type": "building", "id": "furnace" }]
       },
       {
         "level": 5,
         "xp": 17600,
         "components": [
-          {
-            "id": "titanium_beam",
-            "points": 35
-          },
-          {
-            "id": "titanium_sheet",
-            "points": 12
-          }
+          { "id": "titanium_beam", "points": 35 },
+          { "id": "titanium_sheet", "points": 12 }
         ],
-        "rewards": [
-          {
-            "name": "Greater Miner LEM"
-          }
-        ]
+        "rewards": [{ "type": "lem", "name": "Greater Miner LEM" }]
       },
       {
         "level": 6,
         "xp": 37800,
-        "components": [
-          {
-            "id": "tube",
-            "points": 25
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Helium-3 Extractor"
-          }
-        ]
+        "components": [{ "id": "tube", "points": 25 }],
+        "rewards": [{ "type": "building", "id": "helium_extractor" }]
       },
       {
         "level": 7,
         "xp": 69700,
         "components": [
-          {
-            "id": "glass",
-            "points": 70
-          },
-          {
-            "id": "synthetic_silicon",
-            "points": 46
-          }
+          { "id": "glass", "points": 70 },
+          { "id": "synthetic_silicon", "points": 46 }
         ],
-        "rewards": [
-          {
-            "name": "Large Habitat"
-          }
-        ]
+        "rewards": [{ "type": "building", "id": "habitat_large" }]
       },
       {
         "level": 8,
         "xp": 116000,
         "components": [
-          {
-            "id": "electronics",
-            "points": 116
-          },
-          {
-            "id": "synthetic_silicon",
-            "points": 46
-          }
+          { "id": "electronics", "points": 116 },
+          { "id": "synthetic_silicon", "points": 46 }
         ],
-        "rewards": [
-          {
-            "name": "Mega Press"
-          }
-        ]
+        "rewards": [{ "type": "building", "id": "mega_press" }]
       },
       {
         "level": 9,
         "xp": 179400,
-        "components": [
-          {
-            "id": "impeller",
-            "points": 120
-          }
-        ],
+        "components": [{ "id": "impeller", "points": 120 }],
         "rewards": [
-          {
-            "name": "Refinery"
-          },
-          {
-            "name": "Sulfur Extractor"
-          }
+          { "type": "building", "id": "refinery" },
+          { "type": "building", "id": "sulfur_extractor" }
         ]
       },
       {
         "level": 10,
         "xp": 262600,
-        "components": [
-          {
-            "id": "turbine",
-            "points": 175
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Assembler"
-          }
-        ]
+        "components": [{ "id": "turbine", "points": 175 }],
+        "rewards": [{ "type": "building", "id": "assembler" }]
       },
       {
         "level": 11,
         "xp": 368300,
-        "components": [
-          {
-            "id": "scanner",
-            "points": 246
-          }
-        ],
+        "components": [{ "id": "scanner", "points": 246 }],
         "rewards": [
-          {
-            "name": "Greater Endurancegiver LEM"
-          },
-          {
-            "name": "Greater Lifegiver LEM"
-          }
+          { "type": "lem", "name": "Greater Endurancegiver LEM" },
+          { "type": "lem", "name": "Greater Lifegiver LEM" }
         ]
       }
     ]
   },
-  "Griffith Blue Corporation": {
+  {
     "id": "griffith_blue_corporation",
+    "name": "Griffith Blue Corporation",
     "description": "Military defense and weapons",
     "levels": [
       {
@@ -409,194 +243,94 @@
         "xp": 0,
         "components": [],
         "rewards": [
-          {
-            "name": "Basic Platforms"
-          },
-          {
-            "name": "Advanced Platforms"
-          },
-          {
-            "name": "Platform Modules"
-          }
+          { "type": "module_pack", "name": "Basic Platforms" },
+          { "type": "module_pack", "name": "Advanced Platforms" },
+          { "type": "module_pack", "name": "Platform Modules" }
         ]
       },
       {
         "level": 2,
         "xp": 200,
-        "components": [
-          {
-            "id": "bar_titanium",
-            "points": 1
-          }
-        ],
-        "rewards": [
-          {
-            "name": "UPP-7 Pistol"
-          }
-        ]
+        "components": [{ "id": "bar_titanium", "points": 1 }],
+        "rewards": [{ "type": "weapon", "name": "UPP-7 Pistol" }]
       },
       {
         "level": 3,
         "xp": 1500,
         "components": [
-          {
-            "id": "titanium_rod",
-            "points": 5
-          },
-          {
-            "id": "wolfram_wire",
-            "points": 5
-          }
+          { "id": "titanium_rod", "points": 5 },
+          { "id": "wolfram_wire", "points": 5 }
         ],
-        "rewards": [
-          {
-            "name": "Grenade"
-          }
-        ]
+        "rewards": [{ "type": "item", "name": "Grenade" }]
       },
       {
         "level": 4,
         "xp": 6400,
         "components": [
-          {
-            "id": "titanium_sheet",
-            "points": 15
-          },
-          {
-            "id": "wolfram_plate",
-            "points": 15
-          }
+          { "id": "titanium_sheet", "points": 15 },
+          { "id": "wolfram_plate", "points": 15 }
         ],
-        "rewards": [
-          {
-            "name": "Equipment Upgrade Station"
-          }
-        ]
+        "rewards": [{ "type": "utility", "name": "Equipment Upgrade Station" }]
       },
       {
         "level": 5,
         "xp": 17600,
         "components": [
-          {
-            "id": "titanium_housing",
-            "points": 35
-          },
-          {
-            "id": "titanium_sheet",
-            "points": 12
-          }
+          { "id": "titanium_housing", "points": 35 },
+          { "id": "titanium_sheet", "points": 12 }
         ],
-        "rewards": [
-          {
-            "name": "War Bonds (60)"
-          }
-        ]
+        "rewards": [{ "type": "currency", "name": "War Bonds", "amount": 60 }]
       },
       {
         "level": 6,
         "xp": 37800,
-        "components": [
-          {
-            "id": "stabilizer",
-            "points": 35
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Defense Turret"
-          }
-        ]
+        "components": [{ "id": "stabilizer", "points": 35 }],
+        "rewards": [{ "type": "building", "id": "turret_v1" }]
       },
       {
         "level": 7,
         "xp": 69700,
         "components": [
-          {
-            "id": "inductor",
-            "points": 70
-          },
-          {
-            "id": "stabilizer",
-            "points": 35
-          }
+          { "id": "inductor", "points": 70 },
+          { "id": "stabilizer", "points": 35 }
         ],
-        "rewards": [
-          {
-            "name": "War Bonds (80)"
-          }
-        ]
+        "rewards": [{ "type": "currency", "name": "War Bonds", "amount": 80 }]
       },
       {
         "level": 8,
         "xp": 116000,
-        "components": [
-          {
-            "id": "applicator",
-            "points": 46
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Inventory Upgrade (+8)"
-          }
-        ]
+        "components": [{ "id": "applicator", "points": 46 }],
+        "rewards": [{ "type": "meta", "name": "Inventory Upgrade (+8)" }]
       },
       {
         "level": 9,
         "xp": 179400,
         "components": [
-          {
-            "id": "battery",
-            "points": 120
-          },
-          {
-            "id": "nozzle",
-            "points": 45
-          }
+          { "id": "battery", "points": 120 },
+          { "id": "nozzle", "points": 45 }
         ],
-        "rewards": [
-          {
-            "name": "Defense Tower"
-          }
-        ]
+        "rewards": [{ "type": "building", "id": "turret_v2" }]
       },
       {
         "level": 10,
         "xp": 262600,
-        "components": [
-          {
-            "id": "lens",
-            "points": 175
-          }
-        ],
-        "rewards": [
-          {
-            "name": "War Bonds (100)"
-          }
-        ]
+        "components": [{ "id": "lens", "points": 175 }],
+        "rewards": [{ "type": "currency", "name": "War Bonds", "amount": 100 }]
       },
       {
         "level": 11,
         "xp": 368299,
-        "components": [
-          {
-            "id": "condenser",
-            "points": 246
-          }
-        ],
+        "components": [{ "id": "condenser", "points": 246 }],
         "rewards": [
-          {
-            "name": "Greater Shieldgiver LEM"
-          },
-          {
-            "name": "Greater Lifegiver LEM"
-          }
+          { "type": "lem", "name": "Greater Shieldgiver LEM" },
+          { "type": "lem", "name": "Greater Lifegiver LEM" }
         ]
       }
     ]
   },
-  "Moon Energy Corporation": {
+  {
     "id": "moon_energy_corporation",
+    "name": "Moon Energy Corporation",
     "description": "Energy generation and research",
     "levels": [
       {
@@ -604,176 +338,81 @@
         "xp": 0,
         "components": [],
         "rewards": [
-          {
-            "name": "Solar Generator v.1"
-          },
-          {
-            "name": "Analyzing Station"
-          }
+          { "type": "building", "id": "solar_generator_v1" },
+          { "type": "utility", "name": "Analyzing Station" }
         ]
       },
       {
         "level": 2,
         "xp": 200,
-        "components": [
-          {
-            "id": "bar_wolfram",
-            "points": 1
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Recipe Station"
-          }
-        ]
+        "components": [{ "id": "bar_wolfram", "points": 1 }],
+        "rewards": [{ "type": "utility", "name": "Recipe Station" }]
       },
       {
         "level": 3,
         "xp": 1500,
-        "components": [
-          {
-            "id": "ore_calcium",
-            "points": 5
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Map"
-          }
-        ]
+        "components": [{ "id": "ore_calcium", "points": 5 }],
+        "rewards": [{ "type": "item", "name": "Map" }]
       },
       {
         "level": 4,
         "xp": 6400,
         "components": [
-          {
-            "id": "calcite_sheets",
-            "points": 15
-          },
-          {
-            "id": "block_calcium",
-            "points": 4
-          }
+          { "id": "calcite_sheets", "points": 15 },
+          { "id": "block_calcium", "points": 4 }
         ],
-        "rewards": [
-          {
-            "name": "Lesser Infiltrator LEM"
-          }
-        ]
+        "rewards": [{ "type": "lem", "name": "Lesser Infiltrator LEM" }]
       },
       {
         "level": 5,
         "xp": 17600,
-        "components": [
-          {
-            "id": "rotor",
-            "points": 45
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Wind Turbine v.1"
-          }
-        ]
+        "components": [{ "id": "rotor", "points": 45 }],
+        "rewards": [{ "type": "building", "id": "wind_turbine_v1" }]
       },
       {
         "level": 6,
         "xp": 37800,
-        "components": [
-          {
-            "id": "heat_sheet",
-            "points": 25
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Base Core Amplifier v.2"
-          }
-        ]
+        "components": [{ "id": "heat_sheet", "points": 25 }],
+        "rewards": [{ "type": "building", "id": "base_core_amplifier_v2" }]
       },
       {
         "level": 7,
         "xp": 69700,
         "components": [
-          {
-            "id": "chemicals",
-            "points": 70
-          },
-          {
-            "id": "helium",
-            "points": 5
-          }
+          { "id": "chemicals", "points": 70 },
+          { "id": "helium", "points": 5 }
         ],
-        "rewards": [
-          {
-            "name": "Greater Infiltrator LEM"
-          }
-        ]
+        "rewards": [{ "type": "lem", "name": "Greater Infiltrator LEM" }]
       },
       {
         "level": 8,
         "xp": 116000,
-        "components": [
-          {
-            "id": "valve",
-            "points": 100
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Solar Generator v.2"
-          }
-        ]
+        "components": [{ "id": "valve", "points": 100 }],
+        "rewards": [{ "type": "building", "id": "solar_generator_v2" }]
       },
       {
         "level": 9,
         "xp": 179400,
-        "components": [
-          {
-            "id": "electromagnetic_coil",
-            "points": 120
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Base Core Amplifier v.2"
-          }
-        ]
+        "components": [{ "id": "electromagnetic_coil", "points": 120 }],
+        "rewards": [{ "type": "building", "id": "base_core_amplifier_v2" }]
       },
       {
         "level": 10,
         "xp": 262600,
-        "components": [
-          {
-            "id": "generator",
-            "points": 175
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Wind Turbine v.2"
-          }
-        ]
+        "components": [{ "id": "generator", "points": 175 }],
+        "rewards": [{ "type": "building", "id": "wind_turbine_v2" }]
       },
       {
         "level": 11,
         "xp": 368300,
-        "components": [
-          {
-            "id": "laser_emitter",
-            "points": 246
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Inventory Upgrade (+8)"
-          }
-        ]
+        "components": [{ "id": "laser_emitter", "points": 246 }],
+        "rewards": [{ "type": "meta", "name": "Inventory Upgrade (+8)" }]
       }
     ]
   },
-  "Clever Robotics": {
+  {
     "id": "clever_robotics",
+    "name": "Clever Robotics",
     "description": "Logistics, transportation, and automation",
     "levels": [
       {
@@ -781,240 +420,115 @@
         "xp": 0,
         "components": [],
         "rewards": [
-          {
-            "name": "Corporate Terminal"
-          },
-          {
-            "name": "Orbital Cargo Launcher"
-          },
-          {
-            "name": "Rail v.1"
-          },
-          {
-            "name": "Rail Support"
-          },
-          {
-            "name": "Rail Connector"
-          }
+          { "type": "utility", "name": "Corporate Terminal" },
+          { "type": "building", "id": "orbital_cargo_launcher" },
+          { "type": "rail", "id": "rail_v1" },
+          { "type": "building", "id": "rail_support" },
+          { "type": "building", "id": "rail_connector" }
         ]
       },
       {
         "level": 2,
         "xp": 200,
-        "components": [
-          {
-            "id": "bar_wolfram",
-            "points": 1
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Personal Storage"
-          }
-        ]
+        "components": [{ "id": "bar_wolfram", "points": 1 }],
+        "rewards": [{ "type": "utility", "name": "Personal Storage" }]
       },
       {
         "level": 3,
         "xp": 1500,
         "components": [
-          {
-            "id": "bar_wolfram",
-            "points": 1
-          },
-          {
-            "id": "wolfram_wire",
-            "points": 5
-          }
+          { "id": "bar_wolfram", "points": 1 },
+          { "id": "wolfram_wire", "points": 5 }
         ],
-        "rewards": [
-          {
-            "name": "Storage Depot v.1"
-          }
-        ]
+        "rewards": [{ "type": "building", "id": "storage_depot_v1" }]
       },
       {
         "level": 4,
         "xp": 6400,
         "components": [
-          {
-            "id": "wolfram_plate",
-            "points": 15
-          },
-          {
-            "id": "wolfram_wire",
-            "points": 4
-          }
+          { "id": "wolfram_plate", "points": 15 },
+          { "id": "wolfram_wire", "points": 4 }
         ],
-        "rewards": [
-          {
-            "name": "Building Drone"
-          }
-        ]
+        "rewards": [{ "type": "item", "name": "Building Drone" }]
       },
       {
         "level": 5,
         "xp": 17600,
         "components": [
-          {
-            "id": "titanium_housing",
-            "points": 35
-          },
-          {
-            "id": "wolfram_plate",
-            "points": 12
-          }
+          { "id": "titanium_housing", "points": 35 },
+          { "id": "wolfram_plate", "points": 12 }
         ],
         "rewards": [
-          {
-            "name": "Multirail 3"
-          },
-          {
-            "name": "Rail Modulator 3"
-          }
+          { "type": "building", "id": "multirail_3" },
+          { "type": "building", "id": "rail_modulator_3" }
         ]
       },
       {
         "level": 6,
         "xp": 37800,
         "components": [
-          {
-            "id": "heat_sheet",
-            "points": 25
-          },
-          {
-            "id": "titanium_housing",
-            "points": 25
-          }
+          { "id": "heat_sheet", "points": 25 },
+          { "id": "titanium_housing", "points": 25 }
         ],
-        "rewards": [
-          {
-            "name": "Rail v.2"
-          }
-        ]
+        "rewards": [{ "type": "rail", "id": "rail_v2" }]
       },
       {
         "level": 7,
         "xp": 69700,
-        "components": [
-          {
-            "id": "stator",
-            "points": 46
-          }
-        ],
+        "components": [{ "id": "stator", "points": 46 }],
         "rewards": [
-          {
-            "name": "Cargo Dispatcher"
-          },
-          {
-            "name": "Cargo Receiver"
-          }
+          { "type": "building", "id": "cargo_dispatcher" },
+          { "type": "building", "id": "cargo_receiver" }
         ]
       },
       {
         "level": 8,
         "xp": 116000,
         "components": [
-          {
-            "id": "nozzle",
-            "points": 46
-          },
-          {
-            "id": "supermagnet",
-            "points": 116
-          }
+          { "id": "nozzle", "points": 46 },
+          { "id": "supermagnet", "points": 116 }
         ],
-        "rewards": [
-          {
-            "name": "Storage Depot v.2"
-          }
-        ]
+        "rewards": [{ "type": "building", "id": "storage_depot_v2" }]
       },
       {
         "level": 9,
         "xp": 179400,
         "components": [
-          {
-            "id": "electronics",
-            "points": 46
-          },
-          {
-            "id": "hardening_agent",
-            "points": 70
-          }
+          { "id": "electronics", "points": 46 },
+          { "id": "hardening_agent", "points": 70 }
         ],
-        "rewards": [
-          {
-            "name": "Large Personal Storage"
-          }
-        ]
+        "rewards": [{ "type": "utility", "name": "Large Personal Storage" }]
       },
       {
         "level": 10,
         "xp": 262600,
         "components": [
-          {
-            "id": "pressurized_helium",
-            "points": 10
-          },
-          {
-            "id": "pump",
-            "points": 175
-          }
+          { "id": "pressurized_helium", "points": 10 },
+          { "id": "pump", "points": 175 }
         ],
         "rewards": [
-          {
-            "name": "Multirail 5"
-          },
-          {
-            "name": "Rail Modulator 5"
-          }
+          { "type": "building", "id": "multirail_5" },
+          { "type": "building", "id": "rail_modulator_5" }
         ]
       },
       {
         "level": 11,
         "xp": 368300,
-        "components": [
-          {
-            "id": "electromagnet",
-            "points": 246
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Rail v.3"
-          }
-        ]
+        "components": [{ "id": "electromagnet", "points": 246 }],
+        "rewards": [{ "type": "rail", "id": "rail_v3" }]
       },
       {
         "level": 12,
         "xp": 499200,
-        "components": [
-          {
-            "id": "pressure_tank",
-            "points": 210
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Multistorage"
-          }
-        ]
+        "components": [{ "id": "pressure_tank", "points": 210 }],
+        "rewards": [{ "type": "building", "id": "multistorage" }]
       },
       {
         "level": 13,
         "xp": 658000,
-        "components": [
-          {
-            "id": "superconductor",
-            "points": 400
-          }
-        ],
-        "rewards": [
-          {
-            "name": "Expandable Storage"
-          }
-        ]
+        "components": [{ "id": "superconductor", "points": 400 }],
+        "rewards": [{ "type": "building", "id": "expandable_storage" }]
       }
     ]
   }
-}
+]
