@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:starrupture.tools)",
+      "WebFetch(domain:steamcommunity.com)",
+      "WebFetch(domain:www.thegamer.com)",
+      "WebFetch(domain:starruptureplanner.com)",
+      "WebFetch(domain:starrupturewiki.com)",
+      "WebFetch(domain:www.neonlightsmedia.com)",
+      "WebFetch(domain:starrupture.wiki.gg)",
+      "WebFetch(domain:metaforge.app)",
+      "WebFetch(domain:vite.dev)",
+      "Bash(npm install:*)"
+    ]
+  }
+}

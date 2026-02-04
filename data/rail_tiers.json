@@ -1,0 +1,227 @@
+[
+  {
+    "id": "rail_v1",
+    "name": "Rail v.1",
+    "type": "rail",
+    "size": 1,
+    "capacity": 120,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 1
+    },
+    "unlockedBy": {
+      "corporation": "Training Corporation",
+      "level": 2
+    }
+  },
+  {
+    "id": "rail_v2",
+    "name": "Rail v.2",
+    "type": "rail",
+    "size": 1,
+    "capacity": 240,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 3
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 6
+    }
+  },
+  {
+    "id": "rail_v3",
+    "name": "Rail v.3",
+    "type": "rail",
+    "size": 1,
+    "capacity": 480,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "intermediate_building": 3
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 11
+    }
+  },
+  {
+    "id": "rail_v4",
+    "name": "Rail v.4",
+    "type": "rail",
+    "size": 1,
+    "capacity": 900,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": null
+    }
+  },
+  {
+    "id": "rail_v5",
+    "name": "Rail v.5",
+    "type": "rail",
+    "size": 1,
+    "capacity": 1500,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": null
+    }
+  },
+  {
+    "id": "rail_support",
+    "name": "Rail Support",
+    "type": "support",
+    "size": 1,
+    "sockets": 1,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 5
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 1
+    }
+  },
+  {
+    "id": "rail_pole_2x2",
+    "name": "Rail Pole 2x2",
+    "type": "support",
+    "size": 1,
+    "sockets": 2,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 1
+    }
+  },
+  {
+    "id": "multirail_3",
+    "name": "Multirail 3",
+    "type": "support",
+    "size": 1,
+    "sockets": 3,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 5
+    }
+  },
+  {
+    "id": "multirail_5",
+    "name": "Multirail 5",
+    "type": "support",
+    "size": 1,
+    "sockets": 5,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "intermediate_building": 5
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 10
+    }
+  },
+  {
+    "id": "rail_connector",
+    "name": "Rail Connector",
+    "type": "connector",
+    "size": 1,
+    "maxPorts": 4,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 1
+    }
+  },
+  {
+    "id": "rail_junction_2x2",
+    "name": "Rail Junction 2x2",
+    "type": "connector",
+    "size": 1,
+    "maxPorts": 4,
+    "sockets": 2,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 15
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 3
+    }
+  },
+  {
+    "id": "rail_modulator_3",
+    "name": "Rail Modulator 3",
+    "type": "modulator",
+    "size": 1,
+    "maxConnections": 3,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 10
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 5
+    }
+  },
+  {
+    "id": "rail_modulator_5",
+    "name": "Rail Modulator 5",
+    "type": "modulator",
+    "size": 1,
+    "maxConnections": 5,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "intermediate_building": 5
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 10
+    }
+  },
+  {
+    "id": "radial_rail_connector",
+    "name": "Radial Rail Connector",
+    "type": "connector",
+    "size": 1,
+    "maxPorts": 8,
+    "power": 0,
+    "heat": 0,
+    "buildCost": {
+      "basic_building": 20
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 5
+    }
+  }
+]

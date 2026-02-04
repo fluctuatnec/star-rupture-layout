@@ -1,0 +1,362 @@
+[
+  {
+    "id": "ore_titanium",
+    "name": "Titanium Ore",
+    "type": "raw",
+    "tier": 0
+  },
+  {
+    "id": "ore_wolfram",
+    "name": "Wolfram Ore",
+    "type": "raw",
+    "tier": 0
+  },
+  {
+    "id": "ore_calcium",
+    "name": "Calcium Ore",
+    "type": "raw",
+    "tier": 0
+  },
+  {
+    "id": "ore_sulphur",
+    "name": "Sulphur Ore",
+    "type": "raw",
+    "tier": 0
+  },
+  {
+    "id": "helium",
+    "name": "Helium-3",
+    "type": "raw",
+    "tier": 1
+  },
+  {
+    "id": "bar_titanium",
+    "name": "Titanium Bar",
+    "type": "processed",
+    "tier": 1
+  },
+  {
+    "id": "bar_wolfram",
+    "name": "Wolfram Bar",
+    "type": "processed",
+    "tier": 1
+  },
+  {
+    "id": "block_calcium",
+    "name": "Calcium Block",
+    "type": "processed",
+    "tier": 1
+  },
+  {
+    "id": "powder_calcium",
+    "name": "Calcium Powder",
+    "type": "component",
+    "tier": 2
+  },
+  {
+    "id": "powder_wolfram",
+    "name": "Wolfram Powder",
+    "type": "component",
+    "tier": 2
+  },
+  {
+    "id": "ceramics",
+    "name": "Ceramics",
+    "type": "component",
+    "tier": 3
+  },
+  {
+    "id": "glass",
+    "name": "Glass",
+    "type": "component",
+    "tier": 3
+  },
+  {
+    "id": "titanium_housing",
+    "name": "Titanium Housing",
+    "type": "component",
+    "tier": 3
+  },
+  {
+    "id": "heat_sheet",
+    "name": "Heat Resistant Sheet",
+    "type": "component",
+    "tier": 4
+  },
+  {
+    "id": "synthetic_silicon",
+    "name": "Synthetic Silicon",
+    "type": "component",
+    "tier": 4
+  },
+  {
+    "id": "supermagnet",
+    "name": "Supermagnet",
+    "type": "component",
+    "tier": 5
+  },
+  {
+    "id": "sulphuric_acid",
+    "name": "Sulphuric Acid",
+    "type": "component",
+    "tier": 4
+  },
+  {
+    "id": "basic_building",
+    "name": "Basic Building Material",
+    "type": "material",
+    "tier": 1
+  },
+  {
+    "id": "intermediate_building",
+    "name": "Intermediate Building Material",
+    "type": "material",
+    "tier": 5
+  },
+  {
+    "id": "calcite_sheets",
+    "name": "Calcite Sheets",
+    "type": "component",
+    "tier": 2
+  },
+  {
+    "id": "titanium_beam",
+    "name": "Titanium Beam",
+    "type": "component",
+    "tier": 2
+  },
+  {
+    "id": "titanium_rod",
+    "name": "Titanium Rod",
+    "type": "component",
+    "tier": 2
+  },
+  {
+    "id": "titanium_sheet",
+    "name": "Titanium Sheet",
+    "type": "component",
+    "tier": 2
+  },
+  {
+    "id": "wolfram_plate",
+    "name": "Wolfram Plate",
+    "type": "component",
+    "tier": 2
+  },
+  {
+    "id": "wolfram_wire",
+    "name": "Wolfram Wire",
+    "type": "component",
+    "tier": 2
+  },
+  {
+    "id": "rotor",
+    "name": "Rotor",
+    "type": "component",
+    "tier": 3
+  },
+  {
+    "id": "tube",
+    "name": "Tube",
+    "type": "component",
+    "tier": 3
+  },
+  {
+    "id": "stabilizer",
+    "name": "Stabilizer",
+    "type": "component",
+    "tier": 4
+  },
+  {
+    "id": "stator",
+    "name": "Stator",
+    "type": "component",
+    "tier": 4
+  },
+  {
+    "id": "electronics",
+    "name": "Electronics",
+    "type": "component",
+    "tier": 5
+  },
+  {
+    "id": "inductor",
+    "name": "Inductor",
+    "type": "component",
+    "tier": 4
+  },
+  {
+    "id": "valve",
+    "name": "Valve",
+    "type": "component",
+    "tier": 6
+  },
+  {
+    "id": "turbine",
+    "name": "Turbine",
+    "type": "component",
+    "tier": 6
+  },
+  {
+    "id": "nozzle",
+    "name": "Nozzle",
+    "type": "component",
+    "tier": 5
+  },
+  {
+    "id": "pressure_tank",
+    "name": "Pressure Tank",
+    "type": "component",
+    "tier": 8
+  },
+  {
+    "id": "pistol_ammo",
+    "name": "Pistol Ammo",
+    "type": "ammo",
+    "tier": 1
+  },
+  {
+    "id": "standard_ammo",
+    "name": "Standard Ammo",
+    "type": "ammo",
+    "tier": 3
+  },
+  {
+    "id": "shotgun_ammo",
+    "name": "Shotgun Ammo",
+    "type": "ammo",
+    "tier": 3
+  },
+  {
+    "id": "heavy_ammo",
+    "name": "Heavy Ammo",
+    "type": "ammo",
+    "tier": 4
+  },
+  {
+    "id": "accumulator",
+    "name": "Accumulator",
+    "type": "component",
+    "tier": 7
+  },
+  {
+    "id": "applicator",
+    "name": "Applicator",
+    "type": "component",
+    "tier": 4
+  },
+  {
+    "id": "battery",
+    "name": "Battery",
+    "type": "component",
+    "tier": 6
+  },
+  {
+    "id": "chemicals",
+    "name": "Chemicals",
+    "type": "component",
+    "tier": 4
+  },
+  {
+    "id": "condenser",
+    "name": "Condenser",
+    "type": "component",
+    "tier": 10
+  },
+  {
+    "id": "electromagnetic_coil",
+    "name": "Electromagnetic Coil",
+    "type": "component",
+    "tier": 7
+  },
+  {
+    "id": "electromagnet",
+    "name": "Electromagnet",
+    "type": "component",
+    "tier": 9
+  },
+  {
+    "id": "generator",
+    "name": "Generator",
+    "type": "component",
+    "tier": 8
+  },
+  {
+    "id": "hardening_agent",
+    "name": "Hardening Agent",
+    "type": "component",
+    "tier": 5
+  },
+  {
+    "id": "impeller",
+    "name": "Impeller",
+    "type": "component",
+    "tier": 5
+  },
+  {
+    "id": "ion_injector",
+    "name": "Ion Injector",
+    "type": "component",
+    "tier": 11
+  },
+  {
+    "id": "laser_emitter",
+    "name": "Laser Emitter",
+    "type": "component",
+    "tier": 10
+  },
+  {
+    "id": "lens",
+    "name": "Lens",
+    "type": "component",
+    "tier": 8
+  },
+  {
+    "id": "liquid_helium",
+    "name": "Liquid Helium",
+    "type": "component",
+    "tier": 7
+  },
+  {
+    "id": "nanofiber",
+    "name": "Nanofiber",
+    "type": "component",
+    "tier": 9
+  },
+  {
+    "id": "pressurized_helium",
+    "name": "Pressurized Helium",
+    "type": "component",
+    "tier": 5
+  },
+  {
+    "id": "pump",
+    "name": "Pump",
+    "type": "component",
+    "tier": 7
+  },
+  {
+    "id": "resonator",
+    "name": "Resonator",
+    "type": "component",
+    "tier": 9
+  },
+  {
+    "id": "scanner",
+    "name": "Scanner",
+    "type": "component",
+    "tier": 10
+  },
+  {
+    "id": "superconductor",
+    "name": "Superconductor",
+    "type": "component",
+    "tier": 11
+  },
+  {
+    "id": "synthetic_resin",
+    "name": "Synthetic Resin",
+    "type": "component",
+    "tier": 7
+  }
+]

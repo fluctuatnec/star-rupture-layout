@@ -1,0 +1,728 @@
+[
+  {
+    "id": "titanium_ore_impure",
+    "buildingId": "ore_excavator",
+    "output": { "id": "ore_titanium", "amount": 2 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 60,
+    "purity": "impure"
+  },
+  {
+    "id": "titanium_ore_normal",
+    "buildingId": "ore_excavator",
+    "output": { "id": "ore_titanium", "amount": 4 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 120,
+    "purity": "normal"
+  },
+  {
+    "id": "titanium_ore_pure",
+    "buildingId": "ore_excavator",
+    "output": { "id": "ore_titanium", "amount": 8 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 240,
+    "purity": "pure"
+  },
+  {
+    "id": "wolfram_ore_impure",
+    "buildingId": "ore_excavator",
+    "output": { "id": "ore_wolfram", "amount": 2 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 60,
+    "purity": "impure"
+  },
+  {
+    "id": "wolfram_ore_normal",
+    "buildingId": "ore_excavator",
+    "output": { "id": "ore_wolfram", "amount": 4 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 120,
+    "purity": "normal"
+  },
+  {
+    "id": "wolfram_ore_pure",
+    "buildingId": "ore_excavator",
+    "output": { "id": "ore_wolfram", "amount": 8 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 240,
+    "purity": "pure"
+  },
+  {
+    "id": "calcium_ore_impure",
+    "buildingId": "ore_excavator",
+    "output": { "id": "ore_calcium", "amount": 2 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 60,
+    "purity": "impure"
+  },
+  {
+    "id": "calcium_ore_normal",
+    "buildingId": "ore_excavator",
+    "output": { "id": "ore_calcium", "amount": 4 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 120,
+    "purity": "normal"
+  },
+  {
+    "id": "calcium_ore_pure",
+    "buildingId": "ore_excavator",
+    "output": { "id": "ore_calcium", "amount": 8 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 240,
+    "purity": "pure"
+  },
+  {
+    "id": "helium_normal",
+    "buildingId": "helium_extractor",
+    "output": { "id": "helium", "amount": 8 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 240,
+    "purity": "normal"
+  },
+  {
+    "id": "sulphur_normal",
+    "buildingId": "sulfur_extractor",
+    "output": { "id": "ore_sulphur", "amount": 8 },
+    "inputs": [],
+    "duration": 2,
+    "outputPerMinute": 240,
+    "purity": "normal"
+  },
+  {
+    "id": "titanium_bar",
+    "buildingId": "smelter",
+    "output": { "id": "bar_titanium", "amount": 2 },
+    "inputs": [
+      { "id": "ore_titanium", "amount": 2 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "wolfram_bar",
+    "buildingId": "smelter",
+    "output": { "id": "bar_wolfram", "amount": 2 },
+    "inputs": [
+      { "id": "ore_wolfram", "amount": 2 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "calcium_block",
+    "buildingId": "smelter",
+    "output": { "id": "block_calcium", "amount": 2 },
+    "inputs": [
+      { "id": "ore_calcium", "amount": 2 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "calcium_powder",
+    "buildingId": "furnace",
+    "output": { "id": "powder_calcium", "amount": 3 },
+    "inputs": [
+      { "id": "block_calcium", "amount": 1 }
+    ],
+    "duration": 3,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "wolfram_powder",
+    "buildingId": "furnace",
+    "output": { "id": "powder_wolfram", "amount": 3 },
+    "inputs": [
+      { "id": "bar_wolfram", "amount": 1 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 90
+  },
+  {
+    "id": "ceramics",
+    "buildingId": "furnace",
+    "output": { "id": "ceramics", "amount": 2 },
+    "inputs": [
+      { "id": "calcite_sheets", "amount": 1 },
+      { "id": "powder_wolfram", "amount": 1 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "glass",
+    "buildingId": "furnace",
+    "output": { "id": "glass", "amount": 1 },
+    "inputs": [
+      { "id": "helium", "amount": 1 },
+      { "id": "powder_calcium", "amount": 2 }
+    ],
+    "duration": 3,
+    "outputPerMinute": 20
+  },
+  {
+    "id": "titanium_housing",
+    "buildingId": "furnace",
+    "output": { "id": "titanium_housing", "amount": 1 },
+    "inputs": [
+      { "id": "titanium_beam", "amount": 1 },
+      { "id": "titanium_sheet", "amount": 2 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 30
+  },
+  {
+    "id": "heat_sheet",
+    "buildingId": "furnace",
+    "output": { "id": "heat_sheet", "amount": 1 },
+    "inputs": [
+      { "id": "wolfram_plate", "amount": 1 },
+      { "id": "titanium_sheet", "amount": 2 },
+      { "id": "glass", "amount": 1 }
+    ],
+    "duration": 4,
+    "outputPerMinute": 15
+  },
+  {
+    "id": "synthetic_silicon",
+    "buildingId": "furnace",
+    "output": { "id": "synthetic_silicon", "amount": 2 },
+    "inputs": [
+      { "id": "powder_calcium", "amount": 2 },
+      { "id": "helium", "amount": 1 },
+      { "id": "ceramics", "amount": 2 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "inductor",
+    "buildingId": "furnace",
+    "output": { "id": "inductor", "amount": 1 },
+    "inputs": [
+      { "id": "tube", "amount": 2 },
+      { "id": "wolfram_wire", "amount": 1 },
+      { "id": "ceramics", "amount": 2 }
+    ],
+    "duration": 3,
+    "outputPerMinute": 20
+  },
+  {
+    "id": "electronics",
+    "buildingId": "furnace",
+    "output": { "id": "electronics", "amount": 1 },
+    "inputs": [
+      { "id": "synthetic_silicon", "amount": 2 },
+      { "id": "inductor", "amount": 1 },
+      { "id": "stator", "amount": 1 }
+    ],
+    "duration": 5,
+    "outputPerMinute": 12
+  },
+  {
+    "id": "chemicals",
+    "buildingId": "furnace",
+    "output": { "id": "chemicals", "amount": 2 },
+    "inputs": [
+      { "id": "helium", "amount": 1 },
+      { "id": "powder_calcium", "amount": 2 },
+      { "id": "synthetic_silicon", "amount": 2 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "hardening_agent",
+    "buildingId": "furnace",
+    "output": { "id": "hardening_agent", "amount": 2 },
+    "inputs": [
+      { "id": "sulphuric_acid", "amount": 5 },
+      { "id": "synthetic_silicon", "amount": 1 },
+      { "id": "applicator", "amount": 1 }
+    ],
+    "duration": 4,
+    "outputPerMinute": 30
+  },
+  {
+    "id": "supermagnet",
+    "buildingId": "furnace",
+    "output": { "id": "supermagnet", "amount": 1 },
+    "inputs": [
+      { "id": "sulphuric_acid", "amount": 5 },
+      { "id": "wolfram_plate", "amount": 5 },
+      { "id": "chemicals", "amount": 2 }
+    ],
+    "duration": 3,
+    "outputPerMinute": 20
+  },
+  {
+    "id": "basic_building",
+    "buildingId": "fabricator",
+    "output": { "id": "basic_building", "amount": 10 },
+    "inputs": [
+      { "id": "ore_wolfram", "amount": 1 },
+      { "id": "ore_titanium", "amount": 1 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 300
+  },
+  {
+    "id": "pistol_ammo",
+    "buildingId": "fabricator",
+    "output": { "id": "pistol_ammo", "amount": 25 },
+    "inputs": [
+      { "id": "basic_building", "amount": 14 }
+    ],
+    "duration": 4,
+    "outputPerMinute": 375
+  },
+  {
+    "id": "calcite_sheets",
+    "buildingId": "fabricator",
+    "output": { "id": "calcite_sheets", "amount": 2 },
+    "inputs": [
+      { "id": "block_calcium", "amount": 1 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "titanium_beam",
+    "buildingId": "fabricator",
+    "output": { "id": "titanium_beam", "amount": 1 },
+    "inputs": [
+      { "id": "bar_titanium", "amount": 1 }
+    ],
+    "duration": 3,
+    "outputPerMinute": 20
+  },
+  {
+    "id": "titanium_rod",
+    "buildingId": "fabricator",
+    "output": { "id": "titanium_rod", "amount": 1 },
+    "inputs": [
+      { "id": "bar_titanium", "amount": 1 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 30
+  },
+  {
+    "id": "titanium_sheet",
+    "buildingId": "fabricator",
+    "output": { "id": "titanium_sheet", "amount": 2 },
+    "inputs": [
+      { "id": "bar_titanium", "amount": 1 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "wolfram_plate",
+    "buildingId": "fabricator",
+    "output": { "id": "wolfram_plate", "amount": 1 },
+    "inputs": [
+      { "id": "bar_wolfram", "amount": 1 }
+    ],
+    "duration": 1,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "wolfram_wire",
+    "buildingId": "fabricator",
+    "output": { "id": "wolfram_wire", "amount": 2 },
+    "inputs": [
+      { "id": "bar_wolfram", "amount": 1 }
+    ],
+    "duration": 4,
+    "outputPerMinute": 30
+  },
+  {
+    "id": "rotor",
+    "buildingId": "fabricator",
+    "output": { "id": "rotor", "amount": 1 },
+    "inputs": [
+      { "id": "titanium_rod", "amount": 2 },
+      { "id": "wolfram_wire", "amount": 2 }
+    ],
+    "duration": 6,
+    "outputPerMinute": 10
+  },
+  {
+    "id": "tube",
+    "buildingId": "fabricator",
+    "output": { "id": "tube", "amount": 2 },
+    "inputs": [
+      { "id": "titanium_rod", "amount": 1 },
+      { "id": "titanium_sheet", "amount": 1 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 60
+  },
+  {
+    "id": "stabilizer",
+    "buildingId": "fabricator",
+    "output": { "id": "stabilizer", "amount": 1 },
+    "inputs": [
+      { "id": "rotor", "amount": 1 },
+      { "id": "titanium_rod", "amount": 2 }
+    ],
+    "duration": 6,
+    "outputPerMinute": 10
+  },
+  {
+    "id": "stator",
+    "buildingId": "fabricator",
+    "output": { "id": "stator", "amount": 1 },
+    "inputs": [
+      { "id": "titanium_housing", "amount": 2 },
+      { "id": "wolfram_wire", "amount": 1 }
+    ],
+    "duration": 3,
+    "outputPerMinute": 20
+  },
+  {
+    "id": "applicator",
+    "buildingId": "fabricator",
+    "output": { "id": "applicator", "amount": 1 },
+    "inputs": [
+      { "id": "tube", "amount": 8 },
+      { "id": "glass", "amount": 2 }
+    ],
+    "duration": 4,
+    "outputPerMinute": 15
+  },
+  {
+    "id": "standard_ammo",
+    "buildingId": "mega_press",
+    "output": { "id": "standard_ammo", "amount": 20 },
+    "inputs": [
+      { "id": "basic_building", "amount": 18 },
+      { "id": "powder_wolfram", "amount": 4 }
+    ],
+    "duration": 6,
+    "outputPerMinute": 200
+  },
+  {
+    "id": "shotgun_ammo",
+    "buildingId": "mega_press",
+    "output": { "id": "shotgun_ammo", "amount": 15 },
+    "inputs": [
+      { "id": "basic_building", "amount": 20 },
+      { "id": "powder_calcium", "amount": 6 }
+    ],
+    "duration": 6,
+    "outputPerMinute": 150
+  },
+  {
+    "id": "heavy_ammo",
+    "buildingId": "mega_press",
+    "output": { "id": "heavy_ammo", "amount": 15 },
+    "inputs": [
+      { "id": "basic_building", "amount": 24 },
+      { "id": "titanium_rod", "amount": 6 }
+    ],
+    "duration": 6,
+    "outputPerMinute": 150
+  },
+  {
+    "id": "valve",
+    "buildingId": "mega_press",
+    "output": { "id": "valve", "amount": 1 },
+    "inputs": [
+      { "id": "titanium_housing", "amount": 1 },
+      { "id": "titanium_beam", "amount": 3 },
+      { "id": "titanium_rod", "amount": 2 },
+      { "id": "nozzle", "amount": 1 }
+    ],
+    "duration": 10,
+    "outputPerMinute": 6
+  },
+  {
+    "id": "turbine",
+    "buildingId": "mega_press",
+    "output": { "id": "turbine", "amount": 1 },
+    "inputs": [
+      { "id": "impeller", "amount": 1 },
+      { "id": "stator", "amount": 1 },
+      { "id": "rotor", "amount": 2 },
+      { "id": "sulphuric_acid", "amount": 2 }
+    ],
+    "duration": 6,
+    "outputPerMinute": 10
+  },
+  {
+    "id": "nozzle",
+    "buildingId": "mega_press",
+    "output": { "id": "nozzle", "amount": 1 },
+    "inputs": [
+      { "id": "heat_sheet", "amount": 2 },
+      { "id": "stabilizer", "amount": 2 },
+      { "id": "helium", "amount": 1 }
+    ],
+    "duration": 5,
+    "outputPerMinute": 12
+  },
+  {
+    "id": "intermediate_building",
+    "buildingId": "mega_press",
+    "output": { "id": "intermediate_building", "amount": 25 },
+    "inputs": [
+      { "id": "basic_building", "amount": 40 },
+      { "id": "inductor", "amount": 2 },
+      { "id": "glass", "amount": 2 },
+      { "id": "titanium_housing", "amount": 2 }
+    ],
+    "duration": 6,
+    "outputPerMinute": 250
+  },
+  {
+    "id": "impeller",
+    "buildingId": "mega_press",
+    "output": { "id": "impeller", "amount": 1 },
+    "inputs": [
+      { "id": "heat_sheet", "amount": 2 },
+      { "id": "titanium_rod", "amount": 2 },
+      { "id": "wolfram_plate", "amount": 1 },
+      { "id": "stabilizer", "amount": 1 }
+    ],
+    "duration": 4,
+    "outputPerMinute": 15
+  },
+  {
+    "id": "battery",
+    "buildingId": "mega_press",
+    "output": { "id": "battery", "amount": 1 },
+    "inputs": [
+      { "id": "inductor", "amount": 2 },
+      { "id": "electronics", "amount": 2 },
+      { "id": "sulphuric_acid", "amount": 1 }
+    ],
+    "duration": 4,
+    "outputPerMinute": 15
+  },
+  {
+    "id": "electromagnetic_coil",
+    "buildingId": "mega_press",
+    "output": { "id": "electromagnetic_coil", "amount": 1 },
+    "inputs": [
+      { "id": "inductor", "amount": 1 },
+      { "id": "pressurized_helium", "amount": 1 },
+      { "id": "wolfram_plate", "amount": 6 },
+      { "id": "supermagnet", "amount": 1 }
+    ],
+    "duration": 4,
+    "outputPerMinute": 15
+  },
+  {
+    "id": "pump",
+    "buildingId": "mega_press",
+    "output": { "id": "pump", "amount": 1 },
+    "inputs": [
+      { "id": "valve", "amount": 1 },
+      { "id": "turbine", "amount": 1 },
+      { "id": "impeller", "amount": 1 },
+      { "id": "sulphuric_acid", "amount": 3 }
+    ],
+    "duration": 10,
+    "outputPerMinute": 6
+  },
+  {
+    "id": "sulphuric_acid",
+    "buildingId": "refinery",
+    "output": { "id": "sulphuric_acid", "amount": 1 },
+    "inputs": [
+      { "id": "ore_sulphur", "amount": 2 }
+    ],
+    "duration": 0.5,
+    "outputPerMinute": 120
+  },
+  {
+    "id": "pressurized_helium",
+    "buildingId": "refinery",
+    "output": { "id": "pressurized_helium", "amount": 1 },
+    "inputs": [
+      { "id": "helium", "amount": 1 },
+      { "id": "ore_sulphur", "amount": 1 }
+    ],
+    "duration": 2,
+    "outputPerMinute": 30
+  },
+  {
+    "id": "accumulator",
+    "buildingId": "assembler",
+    "output": { "id": "accumulator", "amount": 1 },
+    "inputs": [
+      { "id": "electronics", "amount": 2 },
+      { "id": "stator", "amount": 1 },
+      { "id": "battery", "amount": 2 }
+    ],
+    "duration": 6,
+    "outputPerMinute": 10
+  },
+  {
+    "id": "generator",
+    "buildingId": "assembler",
+    "output": { "id": "generator", "amount": 1 },
+    "inputs": [
+      { "id": "turbine", "amount": 1 },
+      { "id": "battery", "amount": 1 },
+      { "id": "nozzle", "amount": 1 }
+    ],
+    "duration": 10,
+    "outputPerMinute": 6
+  },
+  {
+    "id": "electromagnet",
+    "buildingId": "assembler",
+    "output": { "id": "electromagnet", "amount": 1 },
+    "inputs": [
+      { "id": "electromagnetic_coil", "amount": 3 },
+      { "id": "synthetic_resin", "amount": 3 },
+      { "id": "accumulator", "amount": 2 }
+    ],
+    "duration": 5,
+    "outputPerMinute": 12
+  },
+  {
+    "id": "pressure_tank",
+    "buildingId": "assembler",
+    "output": { "id": "pressure_tank", "amount": 1 },
+    "inputs": [
+      { "id": "heat_sheet", "amount": 5 },
+      { "id": "titanium_housing", "amount": 3 },
+      { "id": "pump", "amount": 3 },
+      { "id": "valve", "amount": 2 }
+    ],
+    "duration": 12,
+    "outputPerMinute": 5
+  },
+  {
+    "id": "resonator",
+    "buildingId": "assembler",
+    "output": { "id": "resonator", "amount": 1 },
+    "inputs": [
+      { "id": "accumulator", "amount": 1 },
+      { "id": "generator", "amount": 2 },
+      { "id": "liquid_helium", "amount": 2 }
+    ],
+    "duration": 12,
+    "outputPerMinute": 5
+  },
+  {
+    "id": "condenser",
+    "buildingId": "assembler",
+    "output": { "id": "condenser", "amount": 1 },
+    "inputs": [
+      { "id": "resonator", "amount": 1 },
+      { "id": "synthetic_resin", "amount": 3 },
+      { "id": "nanofiber", "amount": 8 },
+      { "id": "pump", "amount": 3 }
+    ],
+    "duration": 15,
+    "outputPerMinute": 4
+  },
+  {
+    "id": "laser_emitter",
+    "buildingId": "assembler",
+    "output": { "id": "laser_emitter", "amount": 1 },
+    "inputs": [
+      { "id": "lens", "amount": 2 },
+      { "id": "resonator", "amount": 1 },
+      { "id": "electromagnetic_coil", "amount": 6 }
+    ],
+    "duration": 6,
+    "outputPerMinute": 10
+  },
+  {
+    "id": "scanner",
+    "buildingId": "assembler",
+    "output": { "id": "scanner", "amount": 1 },
+    "inputs": [
+      { "id": "lens", "amount": 2 },
+      { "id": "generator", "amount": 2 },
+      { "id": "stabilizer", "amount": 12 }
+    ],
+    "duration": 6,
+    "outputPerMinute": 10
+  },
+  {
+    "id": "synthetic_resin",
+    "buildingId": "compounder",
+    "output": { "id": "synthetic_resin", "amount": 1 },
+    "inputs": [
+      { "id": "hardening_agent", "amount": 2 },
+      { "id": "sulphuric_acid", "amount": 4 },
+      { "id": "calcite_sheets", "amount": 10 }
+    ],
+    "duration": 3,
+    "outputPerMinute": 20
+  },
+  {
+    "id": "liquid_helium",
+    "buildingId": "compounder",
+    "output": { "id": "liquid_helium", "amount": 1 },
+    "inputs": [
+      { "id": "pressurized_helium", "amount": 1 },
+      { "id": "hardening_agent", "amount": 1 }
+    ],
+    "duration": 3,
+    "outputPerMinute": 20
+  },
+  {
+    "id": "lens",
+    "buildingId": "compounder",
+    "output": { "id": "lens", "amount": 1 },
+    "inputs": [
+      { "id": "glass", "amount": 10 },
+      { "id": "hardening_agent", "amount": 8 },
+      { "id": "synthetic_resin", "amount": 8 }
+    ],
+    "duration": 12,
+    "outputPerMinute": 5
+  },
+  {
+    "id": "nanofiber",
+    "buildingId": "compounder",
+    "output": { "id": "nanofiber", "amount": 1 },
+    "inputs": [
+      { "id": "tube", "amount": 20 },
+      { "id": "liquid_helium", "amount": 5 }
+    ],
+    "duration": 5,
+    "outputPerMinute": 12
+  },
+  {
+    "id": "ion_injector",
+    "buildingId": "compounder",
+    "output": { "id": "ion_injector", "amount": 1 },
+    "inputs": [
+      { "id": "applicator", "amount": 10 },
+      { "id": "electromagnet", "amount": 4 },
+      { "id": "pressure_tank", "amount": 2 }
+    ],
+    "duration": 12,
+    "outputPerMinute": 5
+  },
+  {
+    "id": "superconductor",
+    "buildingId": "compounder",
+    "output": { "id": "superconductor", "amount": 1 },
+    "inputs": [
+      { "id": "ceramics", "amount": 7 },
+      { "id": "electromagnet", "amount": 2 },
+      { "id": "supermagnet", "amount": 8 }
+    ],
+    "duration": 5,
+    "outputPerMinute": 12
+  }
+]

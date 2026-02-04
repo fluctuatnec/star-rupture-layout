@@ -1,0 +1,508 @@
+[
+  {
+    "id": "ore_excavator",
+    "name": "Ore Excavator",
+    "type": "extraction",
+    "size": 3,
+    "placementConstraint": "ore_deposit",
+    "power": 5,
+    "heat": 3,
+    "inputSockets": 0,
+    "outputSockets": 1,
+    "buildCost": {
+      "basic_building": 80
+    },
+    "unlockedBy": {
+      "corporation": "Training Corporation",
+      "level": 2
+    },
+    "recipeIds": [
+      "titanium_ore_impure",
+      "titanium_ore_normal",
+      "titanium_ore_pure",
+      "wolfram_ore_impure",
+      "wolfram_ore_normal",
+      "wolfram_ore_pure",
+      "calcium_ore_impure",
+      "calcium_ore_normal",
+      "calcium_ore_pure"
+    ]
+  },
+  {
+    "id": "helium_extractor",
+    "name": "Helium-3 Extractor",
+    "type": "extraction",
+    "size": 3,
+    "placementConstraint": "helium_deposit",
+    "power": 15,
+    "heat": 60,
+    "inputSockets": 0,
+    "outputSockets": 1,
+    "buildCost": {
+      "basic_building": 250
+    },
+    "unlockedBy": {
+      "corporation": "Selenian Corporation",
+      "level": 6
+    },
+    "recipeIds": ["helium_normal"]
+  },
+  {
+    "id": "sulfur_extractor",
+    "name": "Sulfur Extractor",
+    "type": "extraction",
+    "size": 3,
+    "placementConstraint": "sulfur_deposit",
+    "power": 40,
+    "heat": 60,
+    "inputSockets": 0,
+    "outputSockets": 1,
+    "buildCost": {
+      "intermediate_building": 120
+    },
+    "unlockedBy": {
+      "corporation": "Selenian Corporation",
+      "level": 9
+    },
+    "recipeIds": ["sulphur_normal"]
+  },
+  {
+    "id": "smelter",
+    "name": "Smelter",
+    "type": "processing",
+    "size": 3,
+    "power": 5,
+    "heat": 3,
+    "inputSockets": 1,
+    "outputSockets": 1,
+    "buildCost": {
+      "basic_building": 100
+    },
+    "unlockedBy": {
+      "corporation": "Training Corporation",
+      "level": 4
+    },
+    "recipeIds": ["titanium_bar", "wolfram_bar", "calcium_block"]
+  },
+  {
+    "id": "furnace",
+    "name": "Furnace",
+    "type": "processing",
+    "size": 3,
+    "power": 20,
+    "heat": 8,
+    "inputSockets": 3,
+    "outputSockets": 1,
+    "buildCost": {
+      "basic_building": 200
+    },
+    "unlockedBy": {
+      "corporation": "Selenian Corporation",
+      "level": 4
+    },
+    "recipeIds": [
+      "calcium_powder",
+      "wolfram_powder",
+      "ceramics",
+      "glass",
+      "titanium_housing",
+      "heat_sheet",
+      "synthetic_silicon",
+      "inductor",
+      "electronics",
+      "chemicals",
+      "hardening_agent",
+      "supermagnet"
+    ]
+  },
+  {
+    "id": "fabricator",
+    "name": "Fabricator",
+    "type": "crafting",
+    "size": 3,
+    "power": 10,
+    "heat": 5,
+    "inputSockets": 2,
+    "outputSockets": 1,
+    "buildCost": {
+      "basic_building": 140
+    },
+    "unlockedBy": {
+      "corporation": "Selenian Corporation",
+      "level": 2
+    },
+    "recipeIds": [
+      "basic_building",
+      "pistol_ammo",
+      "calcite_sheets",
+      "titanium_beam",
+      "titanium_rod",
+      "titanium_sheet",
+      "wolfram_plate",
+      "wolfram_wire",
+      "rotor",
+      "tube",
+      "stabilizer",
+      "stator",
+      "applicator"
+    ]
+  },
+  {
+    "id": "mega_press",
+    "name": "Mega Press",
+    "type": "processing",
+    "size": 3,
+    "power": 30,
+    "heat": 15,
+    "inputSockets": 4,
+    "outputSockets": 1,
+    "buildCost": {
+      "intermediate_building": 80
+    },
+    "unlockedBy": {
+      "corporation": "Selenian Corporation",
+      "level": 8
+    },
+    "recipeIds": [
+      "standard_ammo",
+      "shotgun_ammo",
+      "heavy_ammo",
+      "valve",
+      "turbine",
+      "nozzle",
+      "intermediate_building",
+      "impeller",
+      "battery",
+      "electromagnetic_coil",
+      "pump"
+    ]
+  },
+  {
+    "id": "refinery",
+    "name": "Refinery",
+    "type": "processing",
+    "size": 3,
+    "power": 40,
+    "heat": 60,
+    "inputSockets": 2,
+    "outputSockets": 1,
+    "buildCost": {
+      "intermediate_building": 150
+    },
+    "unlockedBy": {
+      "corporation": "Selenian Corporation",
+      "level": 9
+    },
+    "recipeIds": ["sulphuric_acid", "pressurized_helium"]
+  },
+  {
+    "id": "assembler",
+    "name": "Assembler",
+    "type": "crafting",
+    "size": 3,
+    "power": 60,
+    "heat": 150,
+    "inputSockets": 3,
+    "outputSockets": 1,
+    "buildCost": {
+      "intermediate_building": 200
+    },
+    "unlockedBy": {
+      "corporation": "Selenian Corporation",
+      "level": 10
+    },
+    "recipeIds": [
+      "accumulator",
+      "generator",
+      "electromagnet",
+      "pressure_tank",
+      "resonator",
+      "condenser",
+      "laser_emitter",
+      "scanner"
+    ]
+  },
+  {
+    "id": "compounder",
+    "name": "Compounder",
+    "type": "processing",
+    "size": 3,
+    "power": 60,
+    "heat": 150,
+    "inputSockets": 3,
+    "outputSockets": 1,
+    "buildCost": {
+      "intermediate_building": 180
+    },
+    "unlockedBy": {
+      "corporation": "Future Health Solutions",
+      "level": 9
+    },
+    "recipeIds": [
+      "synthetic_resin",
+      "liquid_helium",
+      "lens",
+      "nanofiber",
+      "ion_injector",
+      "superconductor"
+    ]
+  },
+  {
+    "id": "solar_generator_v1",
+    "name": "Solar Generator v.1",
+    "type": "generator",
+    "size": 3,
+    "power": -10,
+    "heat": 5,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Moon Energy Corporation",
+      "level": 1
+    }
+  },
+  {
+    "id": "solar_generator_v2",
+    "name": "Solar Generator v.2",
+    "type": "generator",
+    "size": 3,
+    "power": -1000,
+    "heat": 250,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Moon Energy Corporation",
+      "level": 8
+    }
+  },
+  {
+    "id": "wind_turbine_v1",
+    "name": "Wind Turbine v.1",
+    "type": "generator",
+    "size": 3,
+    "power": -200,
+    "heat": 20,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Moon Energy Corporation",
+      "level": 5
+    }
+  },
+  {
+    "id": "wind_turbine_v2",
+    "name": "Wind Turbine v.2",
+    "type": "generator",
+    "size": 3,
+    "power": -2000,
+    "heat": 200,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Moon Energy Corporation",
+      "level": 10
+    }
+  },
+  {
+    "id": "cargo_dispatcher",
+    "name": "Cargo Dispatcher",
+    "type": "transport",
+    "size": 3,
+    "power": 40,
+    "heat": 40,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 7
+    }
+  },
+  {
+    "id": "cargo_receiver",
+    "name": "Cargo Receiver",
+    "type": "transport",
+    "size": 3,
+    "power": 40,
+    "heat": 40,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 7
+    }
+  },
+  {
+    "id": "orbital_cargo_launcher",
+    "name": "Orbital Cargo Launcher",
+    "type": "transport",
+    "size": 3,
+    "power": 10,
+    "heat": 5,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 1
+    }
+  },
+  {
+    "id": "storage_depot_v1",
+    "name": "Storage Depot v.1",
+    "type": "storage",
+    "size": 3,
+    "power": 5,
+    "heat": 5,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "capacity": 400,
+    "buildCost": {
+      "basic_building": 100
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 3
+    }
+  },
+  {
+    "id": "storage_depot_v2",
+    "name": "Storage Depot v.2",
+    "type": "storage",
+    "size": 3,
+    "power": 5,
+    "heat": 40,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "capacity": 1600,
+    "buildCost": {
+      "intermediate_building": 150
+    },
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 8
+    }
+  },
+  {
+    "id": "expandable_storage",
+    "name": "Expandable Storage",
+    "type": "storage",
+    "size": 3,
+    "power": 60,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "capacity": 1600,
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 13
+    }
+  },
+  {
+    "id": "multistorage",
+    "name": "Multistorage",
+    "type": "storage",
+    "size": 3,
+    "power": 5,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "capacity": 2500,
+    "unlockedBy": {
+      "corporation": "Clever Robotics",
+      "level": 12
+    }
+  },
+  {
+    "id": "base_core_amplifier_v1",
+    "name": "Base Core Amplifier v.1",
+    "type": "temperature",
+    "size": 3,
+    "power": 0,
+    "heat": -20,
+    "inputSockets": 0,
+    "outputSockets": 0
+  },
+  {
+    "id": "base_core_amplifier_v2",
+    "name": "Base Core Amplifier v.2",
+    "type": "temperature",
+    "size": 3,
+    "power": 0,
+    "heat": -250,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Moon Energy Corporation",
+      "level": 6
+    }
+  },
+  {
+    "id": "base_core",
+    "name": "Base Core",
+    "type": "habitat",
+    "size": 4,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "coolingCapacity": 1000,
+    "buildCost": {
+      "meteor_heart": 1
+    },
+    "unlockedBy": {
+      "corporation": "Selenian Corporation",
+      "level": 1
+    }
+  },
+  {
+    "id": "habitat",
+    "name": "Habitat",
+    "type": "habitat",
+    "size": 3,
+    "power": 0,
+    "heat": 5,
+    "inputSockets": 0,
+    "outputSockets": 0
+  },
+  {
+    "id": "habitat_large",
+    "name": "Large Habitat",
+    "type": "habitat",
+    "size": 3,
+    "power": 0,
+    "heat": 20,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Selenian Corporation",
+      "level": 7
+    }
+  },
+  {
+    "id": "turret_v1",
+    "name": "Defense Turret",
+    "type": "defense",
+    "size": 3,
+    "power": 20,
+    "heat": 20,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Griffith Blue Corporation",
+      "level": 6
+    }
+  },
+  {
+    "id": "turret_v2",
+    "name": "Defense Tower",
+    "type": "defense",
+    "size": 3,
+    "power": 0,
+    "heat": 0,
+    "inputSockets": 0,
+    "outputSockets": 0,
+    "unlockedBy": {
+      "corporation": "Griffith Blue Corporation",
+      "level": 9
+    }
+  }
+]
