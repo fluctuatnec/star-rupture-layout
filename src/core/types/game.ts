@@ -9,7 +9,7 @@ import type { PlacementConstraint } from "./layout";
 // Items
 // ─────────────────────────────────────────────────────────────
 
-export type ItemType = "raw" | "processed" | "component" | "advanced";
+export type ItemType = "raw" | "processed" | "component" | "material" | "ammo";
 
 export interface Item {
   id: string;
@@ -22,11 +22,22 @@ export interface Item {
 // Buildings
 // ─────────────────────────────────────────────────────────────
 
-export type BuildingType = "extraction" | "processing" | "production" | "storage";
+export type BuildingType =
+  | "extraction"
+  | "processing"
+  | "crafting"
+  | "generator"
+  | "transport"
+  | "storage"
+  | "temperature"
+  | "habitat"
+  | "defense"
+  | "rail_support"
+  | "rail_junction";
 
 export interface UnlockRequirement {
   corporation: string;
-  level: number | null;
+  level: number | null; // null for unreleased content
 }
 
 export interface Building {
@@ -39,9 +50,12 @@ export interface Building {
   heat: number;
   inputSockets: number;
   outputSockets: number;
-  buildCost: Record<string, number>;
-  unlockedBy: UnlockRequirement;
-  recipeIds: string[];
+  buildCost?: Record<string, number>; // Optional - some buildings have no build cost
+  unlockedBy?: UnlockRequirement; // Optional - some buildings have no unlock requirement
+  recipeIds?: string[]; // Optional - generators, storage, etc. have no recipes
+  capacity?: number; // Optional - for storage buildings
+  coolingCapacity?: number; // Optional - for base core
+  railConnections?: number; // Optional - for rail_support and rail_junction types
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -66,38 +80,79 @@ export interface Recipe {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Rail Infrastructure
+// Rails (transport edges)
 // ─────────────────────────────────────────────────────────────
 
-export type RailInfrastructureType = "rail" | "support" | "connector" | "modulator";
-
-export interface RailTier {
+/**
+ * Rail - the transport line between buildings/infrastructure
+ * Rails are edges in the factory graph with throughput capacity
+ */
+export interface Rail {
   id: string;
   name: string;
-  type: RailInfrastructureType;
   size: number;
-  capacity?: number; // items/min (for rail type)
-  sockets?: number; // for support structures
-  maxPorts?: number; // for connectors
-  maxConnections?: number; // for modulators
+  capacity: number; // items/min throughput
   power: number;
   heat: number;
-  buildCost: Record<string, number>;
-  unlockedBy: UnlockRequirement;
+  buildCost?: Record<string, number>;
+  unlockedBy?: UnlockRequirement;
 }
 
 // ─────────────────────────────────────────────────────────────
 // Corporation & Progression
 // ─────────────────────────────────────────────────────────────
 
-export interface CorporationLevel {
-  level: number;
-  unlocks: string[]; // building/item IDs unlocked at this level
+/**
+ * A component that can be contributed to corporation progression
+ */
+export interface CorporationComponent {
+  id: string;
+  points: number;
 }
 
+/**
+ * Type of reward granted at corporation levels.
+ * - "building" and "rail" have `id` that references data files
+ * - Other types use `name` field (not relevant for factory layout planning)
+ */
+export type RewardType =
+  | "building"
+  | "rail"
+  | "utility"
+  | "lem"
+  | "item"
+  | "weapon"
+  | "module_pack"
+  | "currency"
+  | "meta";
+
+/**
+ * A reward granted at a corporation level
+ */
+export interface CorporationReward {
+  type: RewardType;
+  id?: string; // For "building" and "rail" types - references data files
+  name?: string; // For other types - display name only
+  amount?: number; // Optional quantity (e.g., currency amounts)
+}
+
+/**
+ * A single level in corporation progression
+ */
+export interface CorporationLevel {
+  level: number;
+  xp: number;
+  components: CorporationComponent[];
+  rewards: CorporationReward[];
+}
+
+/**
+ * Corporation data
+ */
 export interface Corporation {
   id: string;
   name: string;
+  description: string;
   levels: CorporationLevel[];
 }
 
@@ -109,7 +164,7 @@ export interface GameData {
   items: Map<string, Item>;
   buildings: Map<string, Building>;
   recipes: Map<string, Recipe>;
-  railTiers: Map<string, RailTier>;
+  rails: Map<string, Rail>;
   corporations: Map<string, Corporation>;
 }
 

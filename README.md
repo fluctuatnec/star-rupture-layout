@@ -61,3 +61,8 @@ data/                       # Game data JSON files
 ## License
 
 MIT
+
+
+## References
+
+- [Star Rupture Database](https://starrupture.tools/)
